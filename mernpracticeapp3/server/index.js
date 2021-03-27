@@ -11,7 +11,7 @@ app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true}));
 app.use(cors());
 
-const CONNECTION_URL = "mongodb+srv://Alex_admin1:tQ6cyEtveT37QXC@fitness1.j8kqy.mongodb.net/mernpracticedb?retryWrites=true&w=majority"
+
 
 const PORT = process.env.PORT || 5000;
 
